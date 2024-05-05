@@ -33,7 +33,6 @@ padding: 25px;
 
 footer{
     background-color: #373738;
-    color: white;
     padding-inline-start: 30%;
 }
 
@@ -49,9 +48,10 @@ footer ul{
 .flexContainer{
     display: flex;
     width: 33%;
-    margin: auto;
-    padding: 50px;
-    flex-direction: columnrow;
+    margin: 50px;
+    padding: 100px;
+    flex-direction: column;
+
 }
 
 html{
@@ -74,4 +74,44 @@ footer{
     background-color: #D3D9D4;
 }
 
+#pManor{
+    width: 250px;
+    height: 450px;
+    float:right;
+}
 
+#CER{
+    width: 250px;
+    height: 450px;
+    float: right;
+}
+
+#skillX{
+    width: 250px;
+    height: 450px;
+    float:right;
+}
+
+h3{
+    font-size: 25px;
+}
+
+p{
+    font-size: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+.workGrid{
+    display: grid;
+
+}
+
+h4{
+    font-size: 25px;
+}
+
+.workGrid{
+    grid-area
+}
