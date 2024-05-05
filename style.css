@@ -32,7 +32,7 @@ padding: 25px;
 }
 
 footer{
-    background-color: #373738;
+    background-color: pink;
     color: white;
     padding-inline-start: 30%;
 }
@@ -45,6 +45,7 @@ footer ul{
     vertical-align: top;
     padding-inline-start: 5%;
 }
+
 
 
 

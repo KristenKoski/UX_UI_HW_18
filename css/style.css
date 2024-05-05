@@ -46,7 +46,32 @@ footer ul{
     padding-inline-start: 5%;
 }
 
+.flexContainer{
+    display: flex;
+    width: 33%;
+    margin: auto;
+    padding: 50px;
+    flex-direction: columnrow;
+}
 
+html{
+    background-color: #FBF9F3;
+}
 
+.navigation{
+     background-color: #D3D9D4;
+}
+
+.heroImg{
+    background-color: #D3D9D4;
+}
+
+.myWork{
+    background-color: #D3D9D4;
+}
+
+footer{
+    background-color: #D3D9D4;
+}
 
 
