@@ -50,7 +50,7 @@ footer ul{
     width: 33%;
     margin: 50px;
     padding: 100px;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
@@ -81,37 +81,88 @@ footer{
 }
 
 #CER{
-    width: 250px;
+    width: 270px;
     height: 450px;
     float: right;
 }
 
 #skillX{
-    width: 250px;
+    width: 270px;
     height: 450px;
     float:right;
 }
-
 h3{
     font-size: 25px;
 }
 
 p{
     font-size: 20px;
+    font-family: "Ubuntu Regulat", sans-serif;
+    
 }
-
+#finalbutton{
+    font-size: 32px;
+    font-family: "Ubuntu bold", sans-serif;
+    color: #3451AB;
+}
 h1{
-    font-size: 30px;
+    font-size: 38px;
+    font-family: "Warownia";
+    color: #3451AB;
 }
 .workGrid{
-    display: grid;
+    display: grid; 
+   grid-template-rows: auto;
+   grid-template-columns: 1fr ;
+   grid-template-areas: 
+   "class1" 
+   "class2"
+    "class3";
+   
 
 }
-
-h4{
-    font-size: 25px;
+h3{
+    font-size: 24px;
+    font-family: "Ubuntu bold", sans-serif;
+    color:#3451AB;
 }
 
-.workGrid{
-    grid-area
+h4 {
+    font-size: 32px;
+    font-family: "Ubuntu bold", sans-serif;
+    color: #3451AB;
 }
+
+button{
+    font-size: 17px;
+    background: 0%;
+    border-color: #DAF561;
+    border-radius: 10px;
+    color:#3451AB;
+    font-family: Ubuntu, sans-serif;
+    
+}
+
+#casestudy{
+    background: 0%;
+    color: black;
+    border-color:#D3D9D4;
+    font-family: 'Warownia';
+    border-style: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+flex-direction:column;
+width:100%;
+grid-template-rows: auto;
+grid-template-columns: 1fr;
+grid-template-areas: 
+"class1"
+"class2"
+"class3"
+;
+}
+}
+
+   
